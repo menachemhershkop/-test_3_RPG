@@ -8,6 +8,7 @@ class Orc(Monster):
         self.speed=random.randint(0,5)
         self.power=random.randint(10,15)
         self.armor_rating=random.randint(2,8)
+        self.weapons = self.weapons[random.randint(0, 2)]
     # def weapon(self):
     #     self.weapons=self.weapons[random.randint(0,2)]
     def speak(self):
