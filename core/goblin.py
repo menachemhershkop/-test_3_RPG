@@ -9,8 +9,9 @@ class Goblin(Monster):
         self.speed=random.randint(5,10)
         self.power=random.randint(5,10)
         self.armor_rating=1
-    def weapon(self):
-        self.weapons=self.weapons[random.randint(0,2)]
+        self.weapons = self.weapons[random.randint(0, 2)]
+    # def weapon(self):
+    #     self.weapons=self.weapons[random.randint(0,2)]
     def speak(self):
         print(self.type,self.name,"מגיע, והוא עצבני!!!!")
     def attack(self):

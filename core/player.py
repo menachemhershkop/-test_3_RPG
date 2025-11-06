@@ -8,6 +8,7 @@ class Player(Fighters):
         self.speed=random.randint(0,5)
         self.armor_rating=random.randint(2,8)
         self.profession=["לוחם", "מרפא"]
+
     def speak(self):
         print(self.name, "is cuming!")
     def attack(self):
