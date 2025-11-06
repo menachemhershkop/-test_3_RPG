@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 class Fighters(ABC):
-    def __init__(self,name,hp,speed,power,armor_rating):
+    def __init__(self,name:str,hp:float,speed:int,power:int,armor_rating:int):
         self.name=name
         self.hp=hp
         self.speed=speed
